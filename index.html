@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="entrega.js"></script>
+    <title>Préstamos</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="titulo">Préstamos</h1>
+        <h2 id="titulo2">Puedes solicitar un préstamo hasta en un plazo de 60 meses</h2>
+
+        <h3 id="titulo3">Monto</h3>
+        <label for="ValorMonto"></label>
+        <input type="number" id="ValorMonto">
+        <button id="agregarMonto">Enviar</button>
+        <div id="monto"></div>
+
+        <h3 id="titulo4">Ingresos</h3>
+        <label for="ValorIngresos"></label>
+        <input type="number" id="ValorIngresos">
+        <button id="agregarIngresos">Enviar</button>
+        <div id="ingresos"></div>
+
+        <h3 id="tituloPlazo">Plazo</h3>
+        <select id="seleccionPlazo">
+            <option value="12">12 meses</option>
+            <option value="24">24 meses</option>
+            <option value="36">36 meses</option>
+            <option value="48">48 meses</option>
+            <option value="60">60 meses</option>
+        </select>
+        <button id="agregarPlazoLista">Enviar</button>
+        <div id="plazoLista"></div>
+
+        <h3 id="tituloDestino">¿Cuál es el destino de los fondos?</h3>
+        <select id="seleccionDestino">
+            <option value="Casa">Casa</option>
+            <option value="Automotor">Automotor</option>
+            <option value="Viaje">Viaje</option>
+            <option value="Electrodomesticos">Electrodomésticos</option>
+            <option value="Varios">Varios</option>
+        </select>
+        <button id="agregarDestino">Enviar</button>
+        <div id="destino"></div>
+
+        <h3 id="tituloDeposito">¿Deposita su sueldo en la entidad?</h3>
+        <select id="seleccionDeposito">
+            <option value="Si">Si</option>
+            <option value="No">No</option>
+        </select>
+        <button id="agregarDeposito">Enviar</button>
+        <div id="deposito"></div>
+
+        <button id="botonFetchTasas">Obtener Información de Tasas</button>
+
+        <button id="agregarSolicitud">Agregar Solicitud</button>
+        <div id="resultados"></div>
+
+        <div id="informacionTasas"></div>
+
+        <div id="cuotaCalculada"></div>
+
+        <button id="limpiarDatos">Limpiar Datos</button>
+    </div>
+</body>
+</html>

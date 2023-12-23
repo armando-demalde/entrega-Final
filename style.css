@@ -1,0 +1,27 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Color de fondo blanco */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% del viewport height */
+}
+
+/* Estilos para el título principal */
+#titulo {
+    color: #fff; /* Texto en color blanco */
+    background-color: #74ACDF; /* Azul claro */
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para otros elementos según sea necesario */
+/* Puedes aplicar estilos similares para otros elementos según tus necesidades */

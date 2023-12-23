@@ -1,0 +1,30 @@
+{
+    "tasas": [
+      {
+        "plazo": 12,
+        "tasa_depositos_30_dias": 0.015,
+        "tasa_prestamos_personales": 0.06
+      },
+      {
+        "plazo": 24,
+        "tasa_depositos_30_dias": 0.018,
+        "tasa_prestamos_personales": 0.07
+      },
+      {
+        "plazo": 36,
+        "tasa_depositos_30_dias": 0.02,
+        "tasa_prestamos_personales": 0.08
+      },
+      {
+        "plazo": 48,
+        "tasa_depositos_30_dias": 0.022,
+        "tasa_prestamos_personales": 0.09
+      },
+      {
+        "plazo": 60,
+        "tasa_depositos_30_dias": 0.025,
+        "tasa_prestamos_personales": 0.1
+      }
+    ]
+  }
+  
